@@ -1,15 +1,14 @@
 #include <iostream>
 using namespace std;
 
-// 팩토리얼을 계산하는 재귀 함수
 int factorial(int n) {
-    if (n <= 1) return 1; // n이 0 또는 1이면 팩토리얼은 1
-    return n * factorial(n - 1); // 재귀적으로 팩토리얼 계산
+    if (n <= 1) return 1; 
+    return n * factorial(n - 1); 
 }
 
 int main() {
     int N;
     cin >> N;
-    cout << factorial(N) << endl; // N!을 출력
+    cout << factorial(N) << endl; 
     return 0;
 }
