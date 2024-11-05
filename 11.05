@@ -1,0 +1,41 @@
+#include <iostream>
+#include <unordered_map>
+#include <string>
+using namespace std;
+
+unordered_map<int, string> memo;
+
+string addBigNumbers(const string &num1, const string &num2) {
+    string result = "";
+    int carry = 0, sum;
+    int len1 = num1.size();
+    int len2 = num2.size();
+    int maxLength = max(len1, len2);
+
+    string n1 = string(maxLength - len1, '0') + num1;
+    string n2 = string(maxLength - len2, '0') + num2;
+
+    for (int i = maxLength - 1; i >= 0; i--) {
+        sum = (n1[i] - '0') + (n2[i] - '0') + carry;
+        carry = sum / 10;
+        result = char((sum % 10) + '0') + result;
+    }
+
+    if (carry) result = char(carry + '0') + result;
+    return result;
+}
+
+string fibonacci(int n) {
+    if (n == 1 || n == 2) return "1";  
+    if (memo.find(n) != memo.end()) return memo[n];  
+
+    memo[n] = addBigNumbers(fibonacci(n - 1), fibonacci(n - 2));
+    return memo[n];
+}
+
+int main() {
+    int n;
+    cin >> n;
+    cout << fibonacci(n) << endl;
+    return 0;
+}
