@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int N;
+    cin >> N;
+
+    int original = N;
+    int count = 0;
+
+    do {
+        int tens = N / 10; 
+        int units = N % 10; 
+        int sum = tens + units; 
+
+        N = (units * 10) + (sum % 10);
+        
+        count++; 
+    } while (N != original);
+
+    cout << count << endl;  
+    return 0;
+}
