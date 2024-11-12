@@ -8,4 +8,5 @@
 | 11.07 | https://www.acmicpc.net/problem/10845 | 큐 | Baekjoon | 실버 4 |
 | 11.08 | https://www.acmicpc.net/problem/1032 | 프롬프트 연습 | Baekjoon | 브론즈 1 |
 | 11.10 | https://www.acmicpc.net/problem/1181 | 정렬 | Baekjoon | 실버 4 |
-| 11.11 | https://www.acmicpc.net/problem/1991 | 트 | Baekjoon | 실버 1 |
+| 11.11 | https://www.acmicpc.net/problem/1991 | 트리 | Baekjoon | 실버 1 |
+| 11.12 | https://www.acmicpc.net/problem/1021 |  | Baekjoon | 실버 3 |
