@@ -1,0 +1,47 @@
+#include <iostream>
+#include <vector>
+#include <queue>
+using namespace std;
+
+int main() {
+    int n, k;
+    cin >> n >> k;
+
+    vector<vector<int>> tree(n);
+    for (int i = 0; i < n - 1; ++i) {
+        int p, c;
+        cin >> p >> c;
+        tree[p].push_back(c);
+        tree[c].push_back(p); 
+    }
+
+    vector<int> node_value(n);
+    int target_node = -1;
+
+    for (int i = 0; i < n; ++i) {
+        cin >> node_value[i];
+        if (node_value[i] == k) {
+            target_node = i;
+        }
+    }
+
+    vector<int> depth(n, -1);
+    queue<int> q;
+    q.push(0);
+    depth[0] = 0;
+
+    while (!q.empty()) {
+        int node = q.front();
+        q.pop();
+
+        for (int child : tree[node]) {
+            if (depth[child] == -1) { 
+                depth[child] = depth[node] + 1;
+                q.push(child);
+            }
+        }
+    }
+
+    cout << depth[target_node] << endl;
+    return 0;
+}
