@@ -10,3 +10,4 @@
 | 11.10 | https://www.acmicpc.net/problem/1181 | 정렬 | Baekjoon | 실버 4 |
 | 11.11 | https://www.acmicpc.net/problem/1991 | 트리 | Baekjoon | 실버 1 |
 | 11.12 | https://www.acmicpc.net/problem/1021 | 큐 | Baekjoon | 실버 3 |
+| 11.14 | https://www.acmicpc.net/problem/25511 | 트리 | Baekjoon | 실버 2 |
