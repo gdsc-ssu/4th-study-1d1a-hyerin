@@ -14,7 +14,7 @@
 | 11.15 | https://www.acmicpc.net/problem/11279 | 큐 | Baekjoon | 실버 2 |
 | 11.16 | https://www.acmicpc.net/problem/1260 | 탐색 | Baekjoon | 실버 2 |
 | 11.18 | https://www.acmicpc.net/problem/2577 | 배열 | Baekjoon | 브론즈 2 |
-| 11.19 | | | | |
+| 11.19 | https://www.acmicpc.net/problem/5397 | 연결리스트 | Baekjoon | 실버 2 |
 | 11.20 | | | | |
 | 11.21 | | | | |
 | 11.22 | | | | |
