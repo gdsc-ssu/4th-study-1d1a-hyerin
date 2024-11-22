@@ -17,7 +17,7 @@
 | 11.19 | https://www.acmicpc.net/problem/5397 | 연결리스트 | Baekjoon | 실버 2 |
 | 11.20 | https://www.acmicpc.net/problem/1874 | 스택 | Baekjoon | 실버2 |
 | 11.21 | https://www.acmicpc.net/problem/18258 | 큐 | Baekjoon | 실버4 |
-| 11.22 | | | | |
+| 11.22 | https://www.acmicpc.net/problem/1021 | 덱 | Baekjoon | 실버 3 |
 | 11.23 | | | | |
 | 11.24 | | | | |
 | 11.25 | | | | |
