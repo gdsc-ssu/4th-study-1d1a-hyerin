@@ -20,5 +20,5 @@
 | 11.22 | https://www.acmicpc.net/problem/1021 | 덱 | Baekjoon | 실버 3 |
 | 11.23 | https://www.acmicpc.net/problem/2178 | BFS | Baekjoon | 실버 1 |
 | 11.24 | https://www.acmicpc.net/problem/11725 | 트리 | Baekjoon | 실버 2 |
-| 11.25 |https://www.acmicpc.net/problem/1475 | 배열 | Baekjoon | 실버 5 |
-
+| 11.25 | https://www.acmicpc.net/problem/1475 | 배열 | Baekjoon | 실버 5 |
+| 11.26 | (https://www.acmicpc.net/problem/4803 | 트리 | Baekjoon | 골드 5 |
