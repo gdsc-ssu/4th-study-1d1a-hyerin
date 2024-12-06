@@ -25,4 +25,6 @@
 | 11.27 | https://www.acmicpc.net/problem/11724 | 그래프 | Baekjoon | 실버 2 |
 | 11.28 |https://www.acmicpc.net/problem/1202 | 이진탐색트리 | Baekjoon | 골드 4 |
 | 11.30 |https://www.acmicpc.net/problem/1927 | 이진탐색트리 | Baekjoon | 실버 2 |
-| 12.04 | https://www.acmicpc.net/problem/11403  | 그래프 | 백준 | 실버 1
+| 12.04 | https://www.acmicpc.net/problem/11403  | 그래프 | 백준 | 실버 1 |
+| 12.05 | https://www.acmicpc.net/problem/2660 | 그래프 | 백준 | 골드 5 |
+
