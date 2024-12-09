@@ -28,5 +28,6 @@
 | 12.04 | https://www.acmicpc.net/problem/11403  | 그래프 | 백준 | 실버 1 |
 | 12.06 | https://www.acmicpc.net/problem/2660 | 그래프 | 백준 | 골드 5 |
 | 12.07 | https://www.acmicpc.net/problem/10866 | 덱  | 백준 | 실버 4|
-| 12.08 | https://www.acmicpc.net/problem/1697 | BFS  | 백준 | 실버 1|
+| 12.08 | https://www.acmicpc.net/problem/1697 | BFS  | 백준 | 실버 1 |
+| 12.09 | https://www.acmicpc.net/problem/13300 | 배열  | 백준 | 브론즈 2| 
 
